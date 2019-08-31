@@ -1,26 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
+import Profile from './components/Profile';
+import About from './components/About';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      display: 'home',
+    };
+  }
+
+  handleClick = (event) => {
+    this.setState({
+      display: event.target.id,
+    });
+  }
+
+  render() {
+    if (this.state.display == 'home') {
+      return (
+        <div id="content">
+          <div id="buttons">
+            <button onClick={this.handleClick} id="home">Home</button>
+            <button onClick={this.handleClick} id="about">About</button>
+          </div>
+          <Profile />
+          <div id="section" style={{width: 0, border: 'none'}}></div>
+        </div>
+      );
+    }
+    else if (this.state.display == 'about') {
+      return (
+        <div id="content">
+          <div id="buttons">
+            <button onClick={this.handleClick} id="home">Home</button>
+            <button onClick={this.handleClick} id="about">About</button>
+          </div>
+
+          <Profile />
+          <div id="section">
+            <About />
+          </div>
+        </div>
+      )
+    }
+  }
 }
 
 export default App;
