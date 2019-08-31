@@ -13,13 +13,25 @@
 }
 
 #buttons {
-  width: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#buttons button {
+  margin: 0 .5rem 1rem 0;
+  padding: .5rem;
+
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 2rem;
 }
 
 #section {
   width: 40vw;
   transition: width .2s ease-in-out;
 
+  background-color: white;
+  border-radius: 4px;
 
-  border: 2px solid red;
 }
