@@ -13,10 +13,16 @@ class App extends React.Component {
   }
 
   handleClick = (event) => {
-    this.setState({
-      display: event.target.parentNode.id
-    });
-    console.log(event.target.parentNode.id);
+    if (event.target.id) {
+      this.setState({
+        display: event.target.id
+      });
+    }
+    else {
+      this.setState({
+        display: event.target.parentNode.id
+      });
+    }
   }
 
   render() {

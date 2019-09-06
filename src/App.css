@@ -2,6 +2,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  min-height: 380px;
   
   padding: 5vh 5vw 5vh 5vw;
   transform: translate(-50%, -50%);
