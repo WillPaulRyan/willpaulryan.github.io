@@ -2,13 +2,14 @@ import React from 'react';
 import Profile from './components/Profile';
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import './App.css';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      display: 'home',
+      display: 'contact',
     };
   }
 
@@ -33,10 +34,11 @@ class App extends React.Component {
             <button onClick={this.handleClick} id='home'><i className="fas fa-home"></i></button>
             <button onClick={this.handleClick} id='about'><i className="far fa-address-card"></i></button>
             <button onClick={this.handleClick} id='projects'><i className="fas fa-hamsa"></i></button>
+            <button onClick={this.handleClick} id='contact'><i className="fas fa-at"></i></button>
           </div>
 
           <Profile />
-          <div id="section">
+          <div className="section">
             <About />
           </div>
         </div>
@@ -49,11 +51,29 @@ class App extends React.Component {
             <button onClick={this.handleClick} id='home'><i className="fas fa-home"></i></button>
             <button onClick={this.handleClick} id='about'><i className="far fa-address-card"></i></button>
             <button onClick={this.handleClick} id='projects'><i className="fas fa-hamsa"></i></button>
+            <button onClick={this.handleClick} id='contact'><i className="fas fa-at"></i></button>
           </div>
 
           <Profile />
-          <div id="section">
+          <div className="section">
             <Projects />
+          </div>
+        </div>
+      )
+    }
+    else if (this.state.display === 'contact') {
+      return (
+        <div id="content">
+          <div id="buttons">
+            <button onClick={this.handleClick} id='home'><i className="fas fa-home"></i></button>
+            <button onClick={this.handleClick} id='about'><i className="far fa-address-card"></i></button>
+            <button onClick={this.handleClick} id='projects'><i className="fas fa-hamsa"></i></button>
+            <button onClick={this.handleClick} id='contact'><i className="fas fa-at"></i></button>
+          </div>
+
+          <Profile />
+          <div className="section">
+            <Contact />
           </div>
         </div>
       )
@@ -65,9 +85,11 @@ class App extends React.Component {
             <button onClick={this.handleClick} id='home'><i className="fas fa-home"></i></button>
             <button onClick={this.handleClick} id='about'><i className="far fa-address-card"></i></button>
             <button onClick={this.handleClick} id='projects'><i className="fas fa-hamsa"></i></button>
+            <button onClick={this.handleClick} id='contact'><i className="fas fa-at"></i></button>
+
           </div>
           <Profile />
-          <div id="section" style={{width: 0, border: 'none'}}></div>
+          <div className="section" style={{width: 0, border: 'none'}}></div>
         </div>
       );
     }

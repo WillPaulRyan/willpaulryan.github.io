@@ -1,0 +1,29 @@
+#contact-content {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#contact-content a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact-content h3,
+#contact-content h4 {
+  font-weight: 500;
+}
+
+.big {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+#contact-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+#contact-content a:hover .big {
+  color: black;
+}

@@ -14,25 +14,40 @@
 }
 
 #buttons {
+  margin-right: 1rem;
+
   display: flex;
   flex-direction: column;
 }
 
 #buttons button {
-  margin: 0 .5rem 1rem 0;
+  margin-bottom: 1rem;
   padding: .5rem;
 
   background-color: white;
   border: none;
   border-radius: 4px;
   font-size: 2rem;
+
+  cursor: pointer;
+
+  transition: color .3s ease;
 }
 
-#section {
+#buttons button:hover {
+  color: var(--blue);
+}
+
+.section {
   width: 40vw;
-  transition: width .2s ease-in-out;
+  transition: width 2s ease-in-out;
 
   background-color: white;
   border-radius: 4px;
 
+  transition: transform .2s ease-in-out;
+}
+
+.section:hover {
+  transform: scale(1.02);
 }
