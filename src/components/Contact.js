@@ -8,7 +8,7 @@ class Contact extends React.Component {
       <div id="contact-content">
         <h1>Contact</h1><br />
         <p>Drop me a line at</p>
-        <a href="mailto:willpaulryan@gmail.com" target="_blank"><h3><span className="big">willpaulryan</span>@<span className="big">gmail</span>.com</h3></a>
+        <a href="mailto:willpaulryan@gmail.com"><h3><span className="big">willpaulryan</span>@<span className="big">gmail</span>.com</h3></a>
         <br />
         <p>Find me at</p>
         <a href="https://www.linkedin.com/in/willpaulryan/" target="_blank"><h4><span className="big">linkedin</span>.com/in/<span className="big">willpaulryan</span></h4></a>
