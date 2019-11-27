@@ -14,7 +14,7 @@ class Profile extends React.Component {
           <a href="https://github.com/WillPaulRyan" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
           <a href="https://codepen.io/willpaulryan" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
         </div>
-        <a id="cv" href="./cv.pdf" target="_blank" download><h4>Download CV</h4></a>
+        <a id="cv" href="./Will%20Ryan%20CV.pdf" target="_blank" download><h4>Download CV</h4></a>
       </div>
     )
   }

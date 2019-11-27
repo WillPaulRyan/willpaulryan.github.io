@@ -1,9 +1,7 @@
 #profile {
-  min-height: 380px;
-  height: 75vh;
-  width: 300px;
-
-  margin-right: 1rem;
+  min-height: 400px;
+  height: 80vh;
+  width: 75vw;
 
   background-color: white;
   
@@ -16,7 +14,21 @@
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   -khtml-border-radius: 4px;
+
+  transition: transform .2s ease-in-out;
 }
+
+@media (min-width: 992px) {
+  #profile {
+    width: 300px;
+
+    margin-right: 1rem;
+  }
+}
+
+/* #profile:hover {
+  transform: scale(1.02);
+} */
 
 #profile-header {
   width: 100%;
