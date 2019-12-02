@@ -9,6 +9,7 @@
 }
 
 #projects-content {
+  max-height: 100%;
   text-align: center;
 }
 
@@ -22,6 +23,7 @@
 .project {
   margin: .5rem 1rem;
   width: 35%;
+  max-width: 200px;
 
   display: flex;
   flex-direction: column;
