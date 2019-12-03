@@ -6,37 +6,37 @@ class Projects extends React.Component {
     let array = [
       {
         name: "Tommy Frozen Yogurt",
-        pic: "https://www.sampletherapy.com/uploads/6/5/8/3/65832467/samples-therapy-exterior_orig.jpg",
+        pic: "/images/tommy_ogp.png",
         url: "https://tommyfrozen.com/",
         github: "https://github.com/WillPaulRyan/tommy"
       },
       {
         name: "wr3.xyz",
-        pic: "https://www.visioncritical.com/hubfs/Imported_Blog_Media/BLG_Andrew-G_-River-Sample_09_13_12.png",
+        pic: "/images/wr3_ogp.png",
         url: "https://wr3.xyz",
         github: "https://github.com/WillPaulRyan/portfolio"
       },
       {
         name: "2020 Odds",
-        pic: "https://www.roadrunnerrecords.com/sites/g/files/g2000005056/f/sample-4.jpg",
+        pic: "/images/2020_ogp.png",
         url: "http://www.2020-odds.com/",
         github: "https://github.com/WillPaulRyan/2020-odds"
       },
       {
         name: "Emoji Speller",
-        pic: "https://ysjournal.com/wp-content/uploads/2014/03/sample_overlay.gif",
+        pic: "/images/emoji_speller_ogp.png",
         url: "http://www.emojispeller.com/",
         github: "https://github.com/WillPaulRyan/emoji-speller"
       },
       {
         name: "Virtual Monkeys",
-        pic: "https://images.everydayhealth.com/images/endomorph-diet-food-list-722x406.jpg",
+        pic: "/images/virtual_monkeys_ogp.png",
         url: "https://willpaulryan.github.io/virtual-monkeys/",
         github: "https://github.com/WillPaulRyan/virtual-monkeys"
       },
       {
         name: "React Flashcards",
-        pic: "https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg",
+        pic: "/images/flashcards_ogp.png",
         url: "https://willpaulryan.github.io/flashcards/",
         github: "https://github.com/WillPaulRyan/flashcards"
       }
