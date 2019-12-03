@@ -6,7 +6,7 @@ class Projects extends React.Component {
     let array = [
       {
         name: "Tommy Frozen Yogurt",
-        pic: "/images/tommy_ogp.png",
+        pic: "/images/tommy.png",
         url: "https://tommyfrozen.com/",
         github: "https://github.com/WillPaulRyan/tommy"
       },
