@@ -9,6 +9,7 @@
 }
 
 #about {
+  max-width: 400px;
   padding: 1rem;
   text-align: center;
 
