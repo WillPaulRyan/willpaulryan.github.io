@@ -49,25 +49,29 @@
 
 #profile h3 {
   margin-top: .75rem;
-  color: var(--blue);
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-#profile #social {
+#social {
   margin-top: 1rem;
   width: 45%;
   display: flex;
   justify-content: space-around;
 }
 
-#profile #social a {
-  color: black;
-  transition: color .3s ease;
+#social a {
+  fill: black;
+  transition: fill .3s ease;
 }
 
-#profile #social a:hover {
-  color: var(--blue);
+#social svg {
+  height: 24px;
+  width: 24px;
+}
+
+#social a:hover {
+  fill: var(--blue);
 }
 
 #cv {

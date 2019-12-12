@@ -6,7 +6,7 @@ class About extends React.Component {
     return (
       <div id="about-container">
         <div id="about-content">
-          <h1>About Me</h1>
+          <h1>About <span className="blue">Me</span></h1>
         </div>
       </div>
     )

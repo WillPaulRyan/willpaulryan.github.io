@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './App.css';
 
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,9 +22,14 @@ class App extends React.Component {
         display: event.target.id
       });
     }
-    else {
+    else if (event.target.parentNode.id) {
       this.setState({
         display: event.target.parentNode.id
+      });
+    }
+    else {
+      this.setState({
+        display: event.target.parentNode.parentNode.id
       });
     }
   }
@@ -31,7 +38,7 @@ class App extends React.Component {
     if (this.state.display === 'about') {
       return (
         <div id="app">
-          <Buttons handleClick={this.handleClick.bind(this)} />
+          <Buttons handleClick={this.handleClick.bind(this)} active={this.state.display} />
           <div id="content">
             <Profile />
             <div className="section">
@@ -44,7 +51,7 @@ class App extends React.Component {
     else if (this.state.display === 'projects') {
       return (
         <div id="app">
-          <Buttons handleClick={this.handleClick.bind(this)} />
+          <Buttons handleClick={this.handleClick.bind(this)} active={this.state.display} />
           <div id="content">
             <Profile />
             <div className="section">
@@ -57,7 +64,7 @@ class App extends React.Component {
     else if (this.state.display === 'contact') {
       return (
         <div id="app">
-          <Buttons handleClick={this.handleClick.bind(this)} />
+          <Buttons handleClick={this.handleClick.bind(this)} active={this.state.display} />
           <div id="content">
             <Profile />
             <div className="section">
@@ -69,15 +76,30 @@ class App extends React.Component {
     }
     else {
       return (
-        <div id="app">
-          <Buttons handleClick={this.handleClick.bind(this)} />
-          <div id="content">
-            <Profile />
+        <div>
+          <div id="app">
+            <Buttons handleClick={this.handleClick.bind(this)} active={this.state.display} />
+            <div id="content">
+              <Profile />
+            </div>
           </div>
         </div>
       );
     }
   }
+
+  // Project Image Pre-load
+  componentDidMount() {
+    var images = ["/images/tommy_ogp.png", 
+                  "/images/wr3_ogp.png", 
+                  "/images/2020_ogp.png",
+                  "/images/emoji_speller_ogp.png",
+                  "/images/virtual_monkeys_ogp.png",
+                  "/images/flashcards_ogp.png"];
+    for (let i = 0; i < images.length; i++) {
+      (new Image()).src = images[i];
+    }
+  };
 }
 
 export default App;

@@ -17,6 +17,15 @@
   align-items: flex-end
 }
 
+canvas {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .section {
   /* width: 40vw; */
   min-height: 400px;
@@ -24,6 +33,7 @@
   width: 75vw;
   margin-top: 10px;
   /* transition: width 2s ease-in-out; */
+  overflow-y: auto;
 
   background-color: white;
   border-radius: 4px;
