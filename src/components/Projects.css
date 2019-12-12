@@ -45,10 +45,6 @@
   transition: color .3s ease;
 }
 
-.project:hover .name {
-  color: var(--blue)
-}
-
 .description {
   top: 50%;
   left: 50%;
@@ -62,10 +58,6 @@
   transition: color .3s ease;
 }
 
-.url:hover {
-  color: var(--blue)
-}
-
 .github {
   bottom: 0;
   right: 0;
@@ -73,6 +65,11 @@
   transition: color .3s ease;
 }
 
+.project:focus-within .name,
+.project:hover .name,
+.url:focus,
+.github:focus,
+.url:hover,
 .github:hover {
   color: var(--blue)
 }

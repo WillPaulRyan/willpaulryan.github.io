@@ -28,7 +28,8 @@
 }
 
 #buttons .active svg,
-#buttons button:hover svg {
+#buttons button:hover svg,
+#buttons button:focus svg {
   fill: var(--blue);
 }
 

@@ -66,10 +66,12 @@
 }
 
 #social svg {
+  display: block;
   height: 24px;
   width: 24px;
 }
 
+#social a:focus,
 #social a:hover {
   fill: var(--blue);
 }
@@ -85,6 +87,7 @@
   transition: color .3s ease;
 }
 
+#cv:focus,
 #cv:hover {
   color: var(--blue);
 }
