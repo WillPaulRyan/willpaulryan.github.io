@@ -26,11 +26,13 @@
   font-weight: bold;
 }
 
+#contact-content a:focus,
 #contact-content a:hover {
   text-decoration: underline;
   text-decoration-color: var(--blue);
 }
 
+#contact-content a:focus .big,
 #contact-content a:hover .big {
   color: black;
 }
