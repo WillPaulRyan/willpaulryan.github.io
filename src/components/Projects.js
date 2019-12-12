@@ -42,7 +42,7 @@ class Projects extends React.Component {
       {
         name: "React Flashcards",
         pic: "/images/flashcards_ogp.png",
-        description: "A simle flashcards app, built in React",
+        description: "A flashcards app, built in React",
         url: "https://willpaulryan.github.io/flashcards/",
         github: "https://github.com/WillPaulRyan/flashcards"
       }

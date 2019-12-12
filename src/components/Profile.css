@@ -51,6 +51,7 @@
   margin-top: .75rem;
   font-size: 1.5rem;
   font-weight: 500;
+  color: var(--blue);
 }
 
 #social {
@@ -61,14 +62,15 @@
 }
 
 #social a {
+  height: fit-content;
   fill: black;
   transition: fill .3s ease;
 }
 
 #social svg {
   display: block;
-  height: 24px;
-  width: 24px;
+  height: 18px;
+  width: 18px;
 }
 
 #social a:focus,

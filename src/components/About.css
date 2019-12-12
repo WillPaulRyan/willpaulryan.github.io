@@ -1,10 +1,47 @@
 #about-container {
-  height: 100%;
-  width: 100%;
-  
+  min-height: 100%;
+  width: 100%;  
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+#about {
+  padding: 1rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about section {
+  margin-bottom: 1rem;
+}
+
+#about h1 {
+  margin-bottom: .5rem;
+}
+
+#about h3,
+#about p {
+  margin-bottom: .3rem;
+}
+
+#about a {
+  color: inherit; 
+}
+
+#about a:focus,
+#about a:hover {
+  color: black;
+  text-decoration-color: var(--blue);
+}
+
+#about .big {
+  font-weight: 600;
+  color: var(--blue);
+}

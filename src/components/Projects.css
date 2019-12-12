@@ -1,4 +1,5 @@
 #projects-container {
+  min-height: 100%;
   width: 100%;
   padding-top: 1rem;
   
@@ -66,12 +67,15 @@
 }
 
 .project:focus-within .name,
-.project:hover .name,
+.project:hover .name {
+  color: var(--blue);
+}
+
 .url:focus,
 .github:focus,
 .url:hover,
 .github:hover {
-  color: var(--blue)
+  text-decoration-color: var(--blue);
 }
 
 @media (min-width: 992px) {

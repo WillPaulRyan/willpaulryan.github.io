@@ -1,5 +1,5 @@
 #contact-container {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 
   display: flex;
@@ -7,32 +7,40 @@
   justify-content: center;
 }
 
-#contact-content {
+#contact {
   text-align: center;
 }
 
-#contact-content a {
+#contact section {
+  margin-bottom: 1rem;
+}
+
+#contact h1 {
+  margin-bottom: .5rem;
+}
+
+#contact h3,
+#contact h4 {
+  font-weight: 500;
+}
+
+#contact a {
   text-decoration: none;
   color: black;
 }
 
-#contact-content h3,
-#contact-content h4 {
-  font-weight: 500;
-}
-
-.big {
+#contact .big {
   color: var(--blue);
   font-weight: bold;
 }
 
-#contact-content a:focus,
-#contact-content a:hover {
+#contact a:focus,
+#contact a:hover {
   text-decoration: underline;
   text-decoration-color: var(--blue);
 }
 
-#contact-content a:focus .big,
-#contact-content a:hover .big {
+#contact a:focus .big,
+#contact a:hover .big {
   color: black;
 }
