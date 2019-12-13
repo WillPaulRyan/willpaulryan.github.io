@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './Card';
 import './Projects.css';
 
 class Projects extends React.Component {
@@ -48,28 +49,11 @@ class Projects extends React.Component {
       }
     ];
 
-    let projects = array.map((project, i) => {
+    const projects = array.map((project, i) => {
       return (
-        <div key={i} className="project" style={{backgroundImage: "url(" + project.pic + ")"}} >
-          <h4 className="name project-text">{project.name}</h4>
-          <p className="description project-text">{project.description}</p>
-          <a href={project.url} className="url project-text" target="_blank" rel="noopener noreferrer">Live Site</a>
-          <a href={project.github} className="github project-text">Github</a>
-        </div>
+        <Card {...project} key={i} />
       )
     });
-
-    // let projects = array.map((project, i) => {
-    //   return (
-    //     <div key={i} className="project">
-    //       <img src={project.pic} alt={project.name} title={project.name}></img>
-    //       <div className="project-links">
-    //         <a href={project.url} title="View site" target="_blank" rel="noopener noreferrer"><i className="fas fa-eye"></i></a>
-    //         <a href={project.github} title="View code" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-    //       </div>
-    //     </div>
-    //   )
-    // });
 
     return (
       <div id="projects-container">
