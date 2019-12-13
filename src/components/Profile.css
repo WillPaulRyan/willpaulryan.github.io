@@ -37,8 +37,7 @@
   object-fit: cover;
   -moz-user-select: none;
   -webkit-user-select: none;
-  user-select: none;
-
+  /* user-select: none; */
 }
 
 #profile h1 {

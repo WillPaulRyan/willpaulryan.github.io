@@ -19,8 +19,10 @@
 .project-text {
   position: absolute;
   display: inline;
-  color: white;
-  background-color: black;
+
+  font-family: monospace;
+  color: black;
+  background-color: #aaa;
 }
 
 .name {
