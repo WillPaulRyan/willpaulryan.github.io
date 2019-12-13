@@ -6,7 +6,7 @@ class Profile extends React.Component {
   render () {
     return (
       <div id="profile">
-        <img id="profile-header" src='./images/low_poly_bg.jpg' alt='background'/>
+        <img id="profile-header" src='./images/trianglify_bg.png' alt='background'/>
         <h1>Will Ryan III</h1>
         <h3 className="blue">Web Developer</h3>
         <div id="social">
