@@ -18,7 +18,8 @@ class About extends React.Component {
             <p>
               I have experience working with <span className="big">Javascript</span> frameworks <span className="big">React</span>
               , <span className="big">Node</span>, and <span className="big">Gatsby</span>, 
-              as well as with <span className="big">Python</span>, <span className="big">Octave</span>, and <span className="big">C</span>.
+              as well as with <span className="big">Python</span>, <span className="big">Octave</span>
+              ,  <span className="big">Wordpress</span>, and <span className="big">C</span>.
             </p>
             <p>
               I have done design work in <span className="big">Photoshop</span>, <span className="big">Illustrator</span>, 
