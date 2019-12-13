@@ -27,8 +27,6 @@ class Card extends React.Component {
   handleMouseMove(e) {
     if (e.target !== e.currentTarget) return;
 
-    console.log(this.state.centerY, e.nativeEvent.offsetY);
-
     this.setState({
       translateX: `${(-e.nativeEvent.offsetX + this.state.centerX) / 10}px`,
       translateY: `${(-e.nativeEvent.offsetY + this.state.centerY) / 10}px`

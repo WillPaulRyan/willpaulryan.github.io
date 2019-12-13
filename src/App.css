@@ -1,20 +1,21 @@
-#app {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  
-  padding: 5vh 5vw 5vh 5vw;
+#app-container {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  /* background-color: #222; */
+  /* background-image: url("./valencia.jpg");
+  background-size: cover; */
   
   display: flex;
-  justify-content: center;
-  align-content: center;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
-#content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end
+@media (min-width: 992px) {
+  #app-container {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 canvas {
@@ -23,46 +24,5 @@ canvas {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: -1;
-}
-
-.section {
-  /* width: 40vw; */
-  min-height: 400px;
-  height: 80vh;
-  width: 75vw;
-  margin-top: 10px;
-  /* transition: width 2s ease-in-out; */
-  overflow-y: auto;
-
-  background-color: white;
-  border-radius: 4px;
-
-  transition: transform .2s ease-in-out;
-}
-
-/* .section:hover {
-  transform: scale(1.02);
-} */
-
-@media (min-width: 992px) {
-  #content {
-    position: inherit;
-    /* top: 50%;
-    left: 50%; */
-    min-height: 380px;
-    
-    /* padding: 0 5vw; */
-    /* transform: translate(-50%, -50%); */
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .section {
-    margin-top: 0;
-    width: 40vw;
-  }
+  z-index: 0;
 }
