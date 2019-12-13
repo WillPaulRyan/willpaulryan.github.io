@@ -20,9 +20,10 @@
   position: absolute;
   display: inline;
 
-  font-family: monospace;
   color: black;
   background-color: #aaa;
+  font-family: monospace;
+  text-transform: uppercase;
 }
 
 .name {
