@@ -20,7 +20,7 @@ class Profile extends React.Component {
             <svg viewBox="0 0 32 32"><path d="M29.6 11.5l-14-9.3c-0.3-0.2-0.8-0.2-1.1 0l-14 9.3c-0.3 0.2-0.4 0.5-0.4 0.8v9.3c0 0.3 0.2 0.6 0.4 0.8l14 9.3c0.2 0.1 0.4 0.2 0.6 0.2s0.4-0.1 0.6-0.2l14-9.3c0.3-0.2 0.4-0.5 0.4-0.8v-9.3c0-0.3-0.2-0.6-0.4-0.8zM15 20.5l-5.2-3.5 5.2-3.5 5.2 3.5-5.2 3.5zM16 11.8v-6.9l11.2 7.5-5.2 3.5-6-4zM14 11.8l-6 4-5.2-3.5 11.2-7.5v6.9zM6.2 17l-4.2 2.8v-5.6l4.2 2.8zM8 18.2l6 4v6.9l-11.2-7.5 5.2-3.5zM16 22.2l6-4 5.2 3.5-11.2 7.5v-6.9zM23.8 17l4.2-2.8v5.6l-4.2-2.8z"/></svg>
           </a>
         </div>
-        <a id="cv" href="./Will%20Ryan%20CV.pdf" title="Download my CV" target="_blank" download><h4>Download CV</h4></a>
+        <a id="cv" href="./willRyanCV.pdf" title="Download my CV" target="_blank" download><h4>Download CV</h4></a>
       </div>
     )
   }
