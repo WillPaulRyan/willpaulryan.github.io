@@ -4,6 +4,7 @@ import Profile from "./Profile";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import {ProjectList} from './ProjectList';
 import "./Page.css";
 
 class Page extends React.Component {
@@ -72,16 +73,8 @@ class Page extends React.Component {
 
   // Project Image Pre-load
   componentDidMount() {
-    const images = [
-      "/images/tommy_ogp.png",
-      "/images/wr3_ogp.png",
-      "/images/2020_ogp.png",
-      "/images/emoji_speller_ogp.png",
-      "/images/virtual_monkeys_ogp.png",
-      "/images/flashcards_ogp.png"
-    ];
-    for (let i = 0; i < images.length; i++) {
-      new Image().src = images[i];
+    for (let i = 0; i < ProjectList.length; i++) {
+      new Image().src = ProjectList[i].pic;
     }
   }
 }
