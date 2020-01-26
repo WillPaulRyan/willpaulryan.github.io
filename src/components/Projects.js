@@ -13,6 +13,13 @@ class Projects extends React.Component {
         github: "https://github.com/WillPaulRyan/tommy"
       },
       {
+        name: "Which One Vapes?",
+        pic: "/images/wwv_ogp.png",
+        description: "A jocular MERN-stack app inspired by a popular podcast",
+        url: "http://whichonevapes.party/",
+        github: "https://github.com/WillPaulRyan/whichonevapes"
+      },
+      {
         name: "wr3.xyz",
         pic: "/images/wr3_ogp.png",
         description: "My personal portfolio website, built in React",
