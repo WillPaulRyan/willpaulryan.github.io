@@ -9,7 +9,7 @@ export const ProjectList = [
   {
     name: "Which One Vapes?",
     pic: "/images/wwv_ogp.png",
-    description: "A jocular MERN-stack app inspired by a popular podcast",
+    description: "A playful MERN-stack app inspired by a popular podcast",
     url: "http://whichonevapes.party/",
     github: "https://github.com/WillPaulRyan/whichonevapes"
   },
@@ -19,6 +19,20 @@ export const ProjectList = [
     description: "My personal portfolio website, built in React",
     url: "https://wr3.xyz",
     github: "https://github.com/WillPaulRyan/portfolio"
+  },
+  {
+    name: "Hosquify",
+    pic: "/images/hosquify_ogp.png",
+    description: "A Spotify clone, drawing data from Apple's iTunes Store API",
+    url: "https://willpaulryan.github.io/hosquify",
+    github: "https://github.com/WillPaulRyan/hosquify"
+  },
+  {
+    name: "Chonk.tk",
+    pic: "/images/chonk_ogp.png",
+    description: "A URL-shortening service",
+    url: "https://chonk.tk",
+    github: "https://github.com/WillPaulRyan/chonk"
   },
   {
     name: "2020 Odds",
