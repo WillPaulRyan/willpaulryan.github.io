@@ -9,8 +9,7 @@ class About extends React.Component {
           <section>
             <h1><span className="blue">About</span> Me</h1>
             <p>My name is <span className="big">Will</span> and I'm a web developer
-              from <span className="big">Louisville</span>, <span className="big">Kentucky</span>,
-              currently living in <span className="big">València</span>, <span className="big">Spain</span>.
+              from <span className="big">Louisville</span>, <span className="big">Kentucky</span>.
             </p>
           </section>
           <section>
@@ -37,7 +36,7 @@ class About extends React.Component {
               bachelor's degree from the <span className="big">University of Louisville</span>.
             </p>
             <p>
-              For more information, please see my <span className="big"><a href="./Will%20Ryan%20CV.pdf" target="_blank" download>CV</a></span>.
+              For more information, please see my <span className="big"><a href="./willRyanCV.pdf" target="_blank" download>CV</a></span>.
             </p>
           </section>
         </div>
