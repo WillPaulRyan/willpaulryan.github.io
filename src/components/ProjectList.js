@@ -3,7 +3,7 @@ export const ProjectList = [
     name: "Tommy Frozen Yogurt",
     pic: "/images/tommy_ogp.png",
     description: "A SourceCOL client: a frozen yogurt shop in Rionegro, Colombia",
-    url: "https://tommyfrozen.com/",
+    url: "https://willpaulryan.github.io/tommy/",
     github: "https://github.com/WillPaulRyan/tommy"
   },
   {
@@ -28,6 +28,13 @@ export const ProjectList = [
     github: "https://github.com/WillPaulRyan/hosquify"
   },
   {
+    name: "Emoji Speller",
+    pic: "/images/emoji_speller_ogp.png",
+    description: "A javascript app for transforming plaintext into emoji",
+    url: "http://www.emojispeller.com/",
+    github: "https://github.com/WillPaulRyan/emoji-speller"
+  },
+  {
     name: "Chonk.tk",
     pic: "/images/chonk_ogp.png",
     description: "A URL-shortening service",
@@ -40,13 +47,6 @@ export const ProjectList = [
     description: "A Flask app tracking the 2020 US Presidential Election",
     url: "http://www.2020-odds.com/",
     github: "https://github.com/WillPaulRyan/2020-odds"
-  },
-  {
-    name: "Emoji Speller",
-    pic: "/images/emoji_speller_ogp.png",
-    description: "A javascript app for transforming plaintext into emoji",
-    url: "http://www.emojispeller.com/",
-    github: "https://github.com/WillPaulRyan/emoji-speller"
   },
   {
     name: "Virtual Monkeys",

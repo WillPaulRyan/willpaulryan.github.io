@@ -4,11 +4,11 @@
   "homepage": "https://wr3.xyz",
   "private": false,
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-particles-js": "^2.7.0",
-    "react-scripts": "^3.3.0"
+    "gh-pages": "^2.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-particles-js": "^2.7.1",
+    "react-scripts": "^3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
