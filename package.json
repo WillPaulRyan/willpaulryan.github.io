@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://wr3.xyz",
+  "homepage": "https://willpaulryan.github.io",
   "private": false,
   "dependencies": {
     "gh-pages": "^2.2.0",
