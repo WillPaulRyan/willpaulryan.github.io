@@ -31,7 +31,7 @@ export const ProjectList = [
     name: "Emoji Speller",
     pic: "/images/emoji_speller_ogp.png",
     description: "A javascript app for transforming plaintext into emoji",
-    url: "http://www.emojispeller.com/",
+    url: "https://willpaulryan.github.io/emoji-speller/",
     github: "https://github.com/WillPaulRyan/emoji-speller"
   },
   {
