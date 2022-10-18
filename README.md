@@ -1,6 +1,6 @@
 # Will Ryan's Portfolio
 
-This project is my personal web dev portfolio, you can visit the live website at [wr3.xyz](https://wr3.xyz/).
+This project is my personal web dev portfolio, you can visit the live website at [willpaulryan.github.io](https://willpaulryan.github.io).
 
 ## Technologies
 
