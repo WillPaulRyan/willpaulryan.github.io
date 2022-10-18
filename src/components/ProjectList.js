@@ -17,7 +17,7 @@ export const ProjectList = [
     name: "wr3.xyz",
     pic: "/images/wr3_ogp.png",
     description: "My personal portfolio website, built in React",
-    url: "https://wr3.xyz",
+    url: "https://willpaulryan.github.io",
     github: "https://github.com/WillPaulRyan/portfolio"
   },
   {
