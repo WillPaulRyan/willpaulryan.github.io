@@ -10,7 +10,7 @@ class Contact extends React.Component {
           <section>
             <h1>Contact</h1>
             <p>Drop me a line at</p>
-            <h3><a href="mailto:will@wr3.xyz"><span className="big">will</span>@<span className="big">wr3</span>.xyz</a></h3>
+            <h3><a href="mailto:willpaulryan@gmail.com"><span className="big">willpaulryan</span>@<span className="big">gmail</span>.com</a></h3>
           </section>
           <section>
             <p>Find me at</p>
